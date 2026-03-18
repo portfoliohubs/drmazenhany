@@ -162,11 +162,6 @@ defaultContentLanguage = "en"
       alt_ar = "كسر في الاسنان الاماميه"
       description_ar = "كسر في الاسنان الاماميه"
 
-  [[params.clinical_cases]]
-    enabled = true
-    category = "operative"
-    category_ar = "حشو تجميلى"
-    
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/cef626a1-31b2-4ef4-ab59-32b40f5d0ed2"
       alt = "Class2 upper 6"
