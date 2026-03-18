@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
     name = "Dr. Mazen Hany"
     tagline = "Internship Doctor"
     graduation = "Graduated 2025 - Faculty of Dentistry"
-    profile_image = "https://github.com/user-attachments/assets/002972df-2f3c-4eb0-8a40-6448e9c5ed3f"
+    profile_image = "https://github.com/user-attachments/assets/4f6e6f60-80ce-4324-a860-22ce02203890"
     profile_image_alt = "Profile photo of Dr. Mazen Hany"
     
     [params.hero.current_position]
