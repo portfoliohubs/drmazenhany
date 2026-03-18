@@ -156,7 +156,7 @@ defaultContentLanguage = "en"
     category_ar = "عمليات وحشو تجميلي"
     
     [[params.clinical_cases.cases]]
-      photo = "https://drive.google.com/open?id=1vF2YVC6UDMs1FE9z63a0YVzh8wDAP5VW"
+      photo = "https://github.com/user-attachments/assets/204209ed-6267-434b-806e-0ed7bdcd43ef"
       alt = "Fracture of 2centrals"
       description = "Fracture of 2centrals"
       alt_ar = "كسر في الاسنان الاماميه"
@@ -168,7 +168,7 @@ defaultContentLanguage = "en"
     category_ar = "حشوات تجميلية"
     
     [[params.clinical_cases.cases]]
-      photo = "https://drive.google.com/open?id=1Hl95tWphrWDN38HSsGKOzgr24bDdXoYG"
+      photo = "https://github.com/user-attachments/assets/cef626a1-31b2-4ef4-ab59-32b40f5d0ed2"
       alt = "Class2 upper 6"
       description = "Class2 upper 6"
       alt_ar = "حشو تجميلى لضرس بالفك العلوى"
