@@ -156,7 +156,7 @@ defaultContentLanguage = "en"
     category_ar = "حشو تجميلى"
     
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/204209ed-6267-434b-806e-0ed7bdcd43ef"
+      photo = "https://github.com/user-attachments/assets/e345475e-3d38-4325-ae2e-9f415452cb77"
       alt = "Fracture of 2centrals"
       description = "Fracture of 2centrals"
       alt_ar = "كسر في الاسنان الاماميه"
