@@ -1,0 +1,290 @@
+baseURL = "https://portfoliohubs.github.io/drmazenhany/"
+languageCode = "en-us"
+title = "Dr. Mazen Hany"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Mazen Hany"
+    tagline = "Internship Doctor"
+    graduation = "Graduated 2025 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/002972df-2f3c-4eb0-8a40-6448e9c5ed3f"
+    profile_image_alt = "Profile photo of Dr. Mazen Hany"
+    
+    [params.hero.current_position]
+      role = "Internship Doctor"
+      clinic = "Egyptian Russian University"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Mazen Hany"
+    doctor_name_ar = "د. مازن هانى"
+    site_name = "Dr. Mazen Hany"
+    og_image = ""
+    favicon_image = ""
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Mazen Hany",
+      "egyptian russian university",
+      "DENTIST IN EGYPT",
+      "DENTAL CLINIC IN EGYPT",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. مازن هانى",
+      "طبيب في الجامعة المصرية الروسية",
+      "عيادة في الجامعة المصرية الروسية",
+      "دكتور مازن هانى",
+      "عيادة مازن هانى",
+      "مازن هانى اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Surgery",
+      "Endodontics",
+      "Cosmetic Fillings",
+      "Fixed Prosthodontics",
+      "Removable Prosthodontics",
+      "Periodontics"
+    ]
+    
+    digital = [
+      "Medical Photography",
+      "PowerPoint",
+      "CAD/CAM"
+    ]
+    
+    soft = [
+      "Time Management",
+      "Pediatric Patients Management"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Egyptian Russian University"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "No Masters Degree"
+      year = ""
+    
+    [params.education.phd]
+      obtained = false
+      title = "No PhD Degree"
+      year = ""
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated from faculty of dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "operative ,حشو تجميلى"
+    category_ar = "عمليات وحشو تجميلي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://drive.google.com/open?id=1vF2YVC6UDMs1FE9z63a0YVzh8wDAP5VW"
+      alt = "Fracture of 2centrals"
+      description = "Fracture of 2centrals"
+      alt_ar = "كسر في الاسنان الاماميه"
+      description_ar = "كسر في الاسنان الاماميه"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "cosmetic fillings"
+    category_ar = "حشوات تجميلية"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://drive.google.com/open?id=1Hl95tWphrWDN38HSsGKOzgr24bDdXoYG"
+      alt = "Class2 upper 6"
+      description = "Class2 upper 6"
+      alt_ar = "حشو تجميلى لضرس بالفك العلوى"
+      description_ar = "حشو تجميلى لضرس بالفك العلوى"
+      
+  # Contact Section
+  [params.contact]
+    phone = "01202673841"
+    whatsapp = "01202673841"
+    email = "Mazenhany2003@icould.com"
+    instagram = "https://www.instagram.com/dr_mazen_hany?igsh=MXF5eDhyOXE1M3J6OA=="
+    facebook = ""
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "مدينه بدر"
+      latitude = "30.16682370132484"
+      longitude = "31.755105538409595"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. مازن هانى"
+    tagline = "طبيب امتياز"
+    graduation = "تخرج 2025 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور مازن هانى"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب امتياز"
+      clinic = "الجامعه المصريه الروسيه"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحه",
+      "حشو عصب",
+      "حشو تجميلى",
+      "تركيبات ثابته",
+      "تركيبات متحركه",
+      "علاج امراض اللثه"
+    ]
+    
+    digital = [
+      "التصوير الطبي",
+      "استخدام برامج معينة-powerpoint",
+      "cadcam-powerpoint"
+    ]
+    
+    soft = [
+      "إدارة الوقت",
+      "التواصل مع المرضى سن الاطفال"
+    ]
+    
+  
+  [params.ar.education]
+    university = "الجامعه المصريه الروسيه"
+    
+    [params.ar.education.master]
+      title = "لا يوجد"
+    
+    [params.ar.education.phd]
+      title = "لا يوجد"
+    
+    [[params.ar.education.timeline]]
+      event = "دخول الجامعه ٢٠٢٠"
+    
+    [[params.ar.education.timeline]]
+      event = "التخرج٢٠٢٥"  
+
+  [params.ar.contact.location]
+    address = "مدينه بدر"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
