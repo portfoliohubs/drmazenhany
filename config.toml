@@ -152,8 +152,8 @@ defaultContentLanguage = "en"
   # Clinical Cases Section
   [[params.clinical_cases]]
     enabled = true
-    category = "operative ,حشو تجميلى"
-    category_ar = "عمليات وحشو تجميلي"
+    category = "operative"
+    category_ar = "حشو تجميلى"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/204209ed-6267-434b-806e-0ed7bdcd43ef"
@@ -164,8 +164,8 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "cosmetic fillings"
-    category_ar = "حشوات تجميلية"
+    category = "operative"
+    category_ar = "حشو تجميلى"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/cef626a1-31b2-4ef4-ab59-32b40f5d0ed2"
