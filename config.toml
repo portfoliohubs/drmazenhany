@@ -234,7 +234,7 @@ defaultContentLanguage = "en"
       event = "التخرج٢٠٢٥"  
 
   [params.ar.contact.location]
-    address = "مدينه بدر"
+    address = "مركز الطاهر الطبي فى الشارع الجديد مسطرد /شبرا الخيمه/شارع ترعه الشابوري"
 
   [params.ar.ui]
     [params.ar.ui.nav]
