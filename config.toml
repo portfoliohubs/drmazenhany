@@ -7,14 +7,14 @@ defaultContentLanguage = "en"
   # Hero Section
   [params.hero]
     name = "Dr. Mazen Hany"
-    tagline = "Internship Doctor"
+    tagline = "Dentist"
     graduation = "Graduated 2025 - Faculty of Dentistry"
     profile_image = "https://github.com/user-attachments/assets/4f6e6f60-80ce-4324-a860-22ce02203890"
     profile_image_alt = "Profile photo of Dr. Mazen Hany"
     
     [params.hero.current_position]
-      role = "Internship Doctor"
-      clinic = "Egyptian Russian University"
+      role = "Dentist"
+      clinic = "مركز الطاهر الطبي"
 
   [params.seo]
     description = "Professional dental portfolio"
@@ -180,21 +180,22 @@ defaultContentLanguage = "en"
     
     [params.contact.location]
       enabled = true
-      address = "مدينه بدر"
-      latitude = "30.16682370132484"
-      longitude = "31.755105538409595"
+      address = "مركز الطاهر الطبي فى
+الشارع الجديد مسطرد /شبرا الخيمه/شارع ترعه الشابوري"
+      latitude = "30.13005623092178"
+      longitude = "31.281767881530605"
 
 # Arabic Translations
 [params.ar]
   [params.ar.hero]
     name = "د. مازن هانى"
-    tagline = "طبيب امتياز"
+    tagline = "طبيب أسنان"
     graduation = "تخرج 2025 - كلية طب الأسنان"
     profile_image_alt = "صورة الملف الشخصي للدكتور مازن هانى"
     
     [params.ar.hero.current_position]
-      role = "طبيب امتياز"
-      clinic = "الجامعه المصريه الروسيه"
+      role = "طبيب أسنان"
+      clinic = "مركز الطاهر الطبي"
   
 [params.ar.skills]
     clinical = [
