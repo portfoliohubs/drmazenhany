@@ -180,8 +180,7 @@ defaultContentLanguage = "en"
     
     [params.contact.location]
       enabled = true
-      address = "مركز الطاهر الطبي فى
-الشارع الجديد مسطرد /شبرا الخيمه/شارع ترعه الشابوري"
+      address = "مركز الطاهر الطبي فى الشارع الجديد مسطرد /شبرا الخيمه/شارع ترعه الشابوري"
       latitude = "30.13005623092178"
       longitude = "31.281767881530605"
 
